@@ -1,2 +1,2 @@
 # java-bootcamp
-java8 bootcamp from Trevor
+java8 bootcamp for Git exploration
