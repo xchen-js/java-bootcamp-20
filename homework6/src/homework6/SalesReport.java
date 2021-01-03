@@ -1,24 +1,26 @@
 package homework6;
 
+import java.time.YearMonth;
+
 public class SalesReport {
-	private String month;
-	private long amount;
+	private YearMonth month;
+	private Integer amount;
 	
-	public SalesReport (String month, long amount) {
+	public SalesReport (YearMonth month, Integer amount) {
 		this.month = month;
 		this.amount = amount;
 	}
 	
-	public String getMonth() {
+	public YearMonth getMonth() {
 		return month;
 	}
-	public void setMonth(String month) {
+	public void setMonth(YearMonth month) {
 		this.month = month;
 	}
-	public long getAmount() {
+	public Integer getAmount() {
 		return amount;
 	}
-	public void setAmount(long amount) {
+	public void setAmount(Integer amount) {
 		this.amount = amount;
 	}
 	
